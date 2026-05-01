@@ -1,0 +1,46 @@
+2026-05-01 18:05:36,643 | INFO | Service Started - Logging System is Active!
+2026-05-01 18:05:38,736 | INFO | Service Started - Logging System is Active!
+2026-05-01 18:09:36,584 | INFO | Service Started - Logging System is Active!
+2026-05-01 18:13:04,573 | INFO | Service Started - Logging System is Active!
+2026-05-01 18:18:25,549 | INFO | REQUEST | user_id=mahya-test | message=who are you?
+2026-05-01 18:18:27,645 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-05-01 18:18:27,646 | ERROR | ERROR | Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-05-01 18:19:00,613 | INFO | REQUEST | user_id=mahya-test | message=who are you?
+2026-05-01 18:19:02,232 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-05-01 18:19:02,233 | ERROR | ERROR | Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-05-01 18:41:36,978 | INFO | REQUEST | user_id=mahya | message=سلام تو چی هستی؟
+2026-05-01 18:41:38,825 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-05-01 18:41:38,827 | ERROR | ERROR | Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-05-01 18:45:39,056 | INFO | REQUEST | user_id=محیا | message=سلام تو چی هستی؟
+2026-05-01 18:45:41,208 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-05-01 18:45:41,210 | ERROR | ERROR | Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-05-01 18:46:41,698 | INFO | REQUEST | user_id=محیا | message=سلام تو چی هستی؟
+2026-05-01 18:46:42,411 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-05-01 18:46:42,412 | ERROR | ERROR | Error code: 400 - {'error': {'message': 'The model `gemma-7b-it` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-05-01 18:48:16,705 | INFO | REQUEST | user_id=default_user | message=سلام
+2026-05-01 18:48:17,414 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-05-01 18:48:17,416 | ERROR | ERROR | Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-05-01 18:59:17,346 | INFO | REQUEST | user_id=default_user | message=سلام تو چی هستی؟
+2026-05-01 18:59:19,059 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-05-01 18:59:19,061 | ERROR | ERROR | Error code: 400 - {'error': {'message': 'The model `gemma2-9b-it` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-05-01 19:00:20,896 | INFO | REQUEST | user_id=default_user | message=سلام
+2026-05-01 19:00:21,805 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-01 19:00:21,851 | INFO | RESPONSE | user_id=default_user
+2026-05-01 19:00:45,664 | INFO | REQUEST | user_id=default_user | message=تو چی هستی؟
+2026-05-01 19:00:46,408 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-01 19:00:46,409 | INFO | RESPONSE | user_id=default_user
+2026-05-01 19:02:26,699 | INFO | REQUEST | user_id=default_user | message=سلام
+2026-05-01 19:02:27,588 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-01 19:02:27,622 | INFO | RESPONSE | user_id=default_user
+2026-05-01 19:02:41,964 | INFO | REQUEST | user_id=default_user | message=تو چی هستی
+2026-05-01 19:02:42,762 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-01 19:02:42,764 | INFO | RESPONSE | user_id=default_user
+2026-05-01 19:32:25,057 | INFO | REQUEST | user_id=user1 | message=سلام تو چی هستی؟
+2026-05-01 19:32:26,241 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-01 19:32:26,273 | INFO | RESPONSE | user_id=user1
+2026-05-01 19:34:50,528 | INFO | REQUEST | user_id=user1 | message=از کدوم مدل استفاده میکنی؟
+2026-05-01 19:34:52,679 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-01 19:34:52,681 | INFO | RESPONSE | user_id=user1
+2026-05-01 19:36:25,668 | INFO | REQUEST | user_id=user1 | message=از چه زبان هایی پشتیبانی میکنی؟
+2026-05-01 19:36:26,879 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-01 19:36:26,882 | INFO | RESPONSE | user_id=user1
